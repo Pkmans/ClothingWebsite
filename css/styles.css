@@ -1,0 +1,42 @@
+h2 {
+    padding: 3rem;
+}
+
+.container-fluid {
+    padding: 1.5rem;
+}
+
+.header {
+    background-image: url("/images/clothingRack.jpg");
+    height: 40rem;
+    /* padding: 30rem 5rem 5rem; */
+    position: relative;
+
+}
+
+.header-content {
+    position: absolute;
+    left: 4rem;
+    bottom: 4rem;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 500;
+    font-size: 1.8rem !important;
+}
+
+.navbar-nav {
+    padding-right: 1.5rem;
+}
+
+/* Sections */
+.sections {
+    text-align: center;
+}
+
+/* Trending Products */
+.products-img {
+    max-width: 30rem;
+    height: 20rem;
+}
