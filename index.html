@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clothing Store</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
 
-    <section>
+    <section class="sections">
 
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-white">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Clothing Store</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,13 +30,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Products</a>
+                            <a class="nav-link" href="#">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Reviews</a>
+                            <a class="nav-link" href="#">Reviews</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contact</a>
+                            <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -52,10 +53,8 @@
                 <h1>Fashionable Clothing this Summer 2022.</h1>
                 <button type="button" class="btn btn-dark btn-lg order-btn">Shop Now</button>
             </div>
-
         </div>
         </div>
-
     </section>
 
     <!-- Trending Products Section -->
@@ -64,19 +63,19 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="products-box col-lg-4">
                     <img class="products-img" src="/images/brooklyn-Tee.png" alt="tee-img">
-                    <h3>Vintage Tees</h3>
+                    <h3 class="products-title">Vintage Tees</h3>
                     <p>Comfy, simple, and stylish tees that go with any outfit</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="products-box col-lg-4">
                     <img class="products-img" src="/images/shorts.png" alt="shorts-img">
-                    <h3>Ez Stretch Shorts</h3>
+                    <h3 class="products-title">Ez Stretch Shorts</h3>
                     <p>Shorts with a stretch that's suitable for active outdoor wear</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="products-box col-lg-4">
                     <img class="products-img" src="/images/jacket.png" alt="jacket-img">
-                    <h3>Summer Jackets</h3>
+                    <h3 class="products-title">Summer Jackets</h3>
                     <p>Perfect outerwear for those cloudy summer days</p>
                 </div>
             </div>
@@ -85,14 +84,105 @@
     </section>
 
     <!-- Reviews Section -->
-    <section></section>
+    <section class="sections coloured-section">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" data-interval="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fluid">
+                    <h2>"The quality is simply amazing. I've never found any other store that sells such amazing
+                        pieces!"</h2>
+                    <img src="/images/yoru.png" alt="yoru-img">
+                    <em>- Ryo Kiritani aka Yoru</em>
+                </div>
+                <div class="carousel-item container-fluid">
+                    <h2>"Poggers wow the material is exquisite. I am having a lovely time flaunting my outfits. Would
+                        recommend!!!"</h2>
+                    <img src="/images/anya.png" alt="anya-img">
+                    <em>- Anya Forger</em>
+                </div>
+                <div class="carousel-item container-fluid">
+                    <h2>"There's just nothing that can beat these trendy clothes. Absolutely topnotch I'm in love :D"
+                    </h2>
+                    <img src="/images/eren.jpg" alt="eren-img">
+                    <em>- Eren Yeager</em>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Press -->
+    <section class="sections coloured-section">
+        <img class="press-logo" src="/images/vogue.png" alt="vogue-png">
+        <img class="press-logo" src="/images/fashion-network.png" alt="fashion-network-png">
+
+    </section>
 
     <!-- Contact Section -->
-    <section></section>
+    <section id="contact">
+        <div class="container-fluid">
+            
+            <div class="row">
+                <div class="latest-outfits col-lg-8">
+                    <h3 class="contact-title">Latest Outfits</h3>
+                    <img src="/images/latest-outfit.jpg" alt="latest-outfit-img">
+                    <img src="/images/outfit2.jpg" alt="outfit-img">
+                    <img src="/images/outfit3.jpg" alt="outfit-img">
+                </div>
+                
+                <div class="business-inquiries col-lg-4">
+                    <h3>Business Inquiries</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="InputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
+                                placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="InputText">Message</label>
+                            <textarea type="password" class="form-control" placeholder="Enter Message" rows="4"
+                                rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </form>
+                </div>
+
+                
+
+
+            </div>
+
+
+
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+
+    <footer>
+
+    </footer>
+
 </body>
+
+
 
 </html>
