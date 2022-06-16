@@ -7,6 +7,10 @@ h2 {
     padding: 1rem;
 }
 
+p {
+    margin: 0;
+}
+
 .container-fluid {
     padding: 1.5rem;
 }
@@ -84,14 +88,14 @@ h2 {
 }
 
 #contact .container-fluid {
-    padding-top: 5rem;
+    padding: 5rem 0 5rem;
 }
 
 #contact img {
-    width: 24%;
-    height: 500px;
+    width: 26%;
+    height: 550px;
     border-radius: 5%;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .contact-title {
@@ -100,4 +104,19 @@ h2 {
 
 .latest-outfits{
     padding: 0 0 0 5rem;
+}
+
+.business-inquiries {
+
+}
+
+/* Footer */
+footer {
+    padding: 1.5rem 0 1.3rem;
+    text-align: center;
+}
+
+.footer-logos {
+    padding: 0 0.5rem 1rem;
+    font-size: 1.4rem;
 }
