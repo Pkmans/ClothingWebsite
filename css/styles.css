@@ -17,7 +17,7 @@ p {
 
 .header {
     background-image: url("/images/clothingRack.jpg");
-    padding: 35rem 5rem 5rem;
+    padding: 37rem 5rem 5rem;
     position: relative;
 }
 
@@ -30,17 +30,27 @@ p {
 /* Navbar */
 .navbar-brand {
     font-weight: 500;
-    font-size: 1.8rem !important;
+    font-size: 2.5rem;
+    padding-left: 2rem;
 }
 
 .navbar-nav {
     padding-right: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.nav-item {
+    margin-right: 1rem;
 }
 
 /* Sections */
 .sections {
     text-align: center;
-    padding: 2rem 3rem;
+    padding: 3rem 3rem;
+}
+
+.trending-section {
+    padding: 5.5rem 0;
 }
 
 .coloured-section {
@@ -53,24 +63,28 @@ p {
 }
 
 .products-img {
+    border-radius: 10%;
     max-width: 30rem;
     height: 20rem;
-    margin-bottom: 1.5rem
+    margin: 2rem 0 1.5rem;
 }
-
 
 .products-title {
     font-size: 1.8rem;
 }
 
+.cart-button {
+    margin: 1rem 0 0;
+}
+
 
 /* Carousel */
 .carousel-inner {
-    padding: 3rem 16rem 2rem;
+    padding: 0 16rem;
 }
 
 .carousel-inner img {
-    width: 8%;
+    width: 10%;
     border-radius: 100%;
     margin: 20px;
 }
@@ -78,8 +92,7 @@ p {
 /* Press */
 .press-logo {
     width: 12%;
-    margin: 10px 20px 50px;
-
+    margin: 0 20px 50px;
 }
 
 /* Contact */
@@ -88,7 +101,7 @@ p {
 }
 
 #contact .container-fluid {
-    padding: 5rem 0 5rem;
+    padding: 7.4rem 0;
 }
 
 #contact img {
@@ -107,12 +120,12 @@ p {
 }
 
 .business-inquiries {
-
+    padding: 9rem 3rem 0 0;
 }
 
 /* Footer */
 footer {
-    padding: 1.5rem 0 1.3rem;
+    padding: 1.7rem 0;
     text-align: center;
 }
 
